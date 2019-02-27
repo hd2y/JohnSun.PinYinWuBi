@@ -5,6 +5,7 @@
 ## 测试用例
 
 ```csharp
+string text = "南京市长江大桥(Nanjing Yangtze River Bridge)";
 Console.WriteLine($"测试输出：{text}");
 Console.WriteLine("==============测试获取汉字信息==============");
 {
