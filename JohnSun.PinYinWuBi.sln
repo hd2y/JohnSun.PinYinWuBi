@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnSun.PinYinWuBi", "JohnSun.PinYinWuBi\JohnSun.PinYinWuBi.csproj", "{7F7B1126-634E-40A7-9C0D-3FFAF428D234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnSun.PinYinWuBi.ConsoleTests", "JohnSun.PinYinWuBi.ConsoleTests\JohnSun.PinYinWuBi.ConsoleTests.csproj", "{E2364595-391D-4559-9668-A11BCB122BDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F7B1126-634E-40A7-9C0D-3FFAF428D234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7B1126-634E-40A7-9C0D-3FFAF428D234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7B1126-634E-40A7-9C0D-3FFAF428D234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7B1126-634E-40A7-9C0D-3FFAF428D234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2364595-391D-4559-9668-A11BCB122BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2364595-391D-4559-9668-A11BCB122BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2364595-391D-4559-9668-A11BCB122BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2364595-391D-4559-9668-A11BCB122BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA2C70B2-F225-401C-8C22-EF3DC1CEF976}
+	EndGlobalSection
+EndGlobal
