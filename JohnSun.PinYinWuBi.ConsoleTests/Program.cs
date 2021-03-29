@@ -15,6 +15,7 @@ namespace JohnSun.PinYinWuBi.ConsoleTests
         public static void Test(string text)
         {
             Console.WriteLine($"测试输出：{text}");
+
             Console.WriteLine("==============测试获取汉字信息==============");
             {
                 for (int i = 0; i < text.Length; i++)
@@ -30,10 +31,12 @@ namespace JohnSun.PinYinWuBi.ConsoleTests
                     }
                 }
             }
+
             Console.WriteLine("==============获取拼音首码信息==============");
             {
                 Console.WriteLine(PinYinWuBiHelper.GetPinYinFirstCode(text));
             }
+
             Console.WriteLine("==============获取全部拼音首码==============");
             {
                 string[] temp = PinYinWuBiHelper.GetAllPinYinFirstCode(text);
@@ -42,6 +45,7 @@ namespace JohnSun.PinYinWuBi.ConsoleTests
                     Console.WriteLine(temp[i]);
                 }
             }
+
             Console.WriteLine("==============获取全部五笔首码==============");
             {
                 Console.WriteLine(PinYinWuBiHelper.GetWuBiFirstCode(text));
